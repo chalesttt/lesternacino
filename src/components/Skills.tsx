@@ -45,10 +45,10 @@ const Skills = () => {
         <Collapsible open={isExpanded}>
           <CollapsibleTrigger
             onClick={() => setIsExpanded(!isExpanded)}
-            className="text-[12px] text-sm sm:text-base text-primary hover:underline flex items-center"
+            className="text-[12px] sm:text-[12px] text-primary hover:underline flex items-center"
           >
             {isExpanded ? "Show Less" : "View All"}
-            <ChevronDown size={16} className={`ml-1 transition-transform ${isExpanded ? "rotate-180" : ""}`} />
+            <ChevronDown size={14} className={`ml-1 transition-transform ${isExpanded ? "rotate-180" : ""}`} />
           </CollapsibleTrigger>
         </Collapsible>
         </div>
