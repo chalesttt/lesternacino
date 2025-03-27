@@ -28,7 +28,7 @@ const Header = () => {
             <a href="public/John_Lester_L._Nacino_Resume.pdf" download>
               <Button variant="outline" size="sm" className="hover:bg-primary/10 transition-colors">
                 <Download size={16} className="mr-2" />
-                Download Resume
+                Download Resume`
               </Button>
             </a>
           </div>
