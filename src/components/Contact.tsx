@@ -46,7 +46,7 @@ const Contact = () => {
               id="message"
               name="message"
               rows={4}
-              className="w-full px-3 py-2 bg-background border border-border rounded-md focus:outline-none focus:ring-1 focus:ring-primary resize-none text-sm"
+              className="w-full px-3 py-2 bg-background border border-border rounded-md focus:outline-none focus:ring-1 focus:ring-primary resize-y text-sm"
               placeholder="Your message..."
             ></textarea>
           </div>
