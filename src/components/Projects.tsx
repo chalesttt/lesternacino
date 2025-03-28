@@ -8,12 +8,6 @@ const Projects = () => {
 
   const primaryProjects = [
     {
-      title: "TaskMaster: To-Do-List App",
-      description: "A to-do list app is a digital tool designed to help users organize and manage their tasks and reminders.",
-      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
-      demo: "https://lesternacino-todolist.netlify.app/"
-    },
-    {
       title: "SecurePasss: Password Generator",
       description: "A Password Generator is a tool or application that creates strong, random passwords to enhance security.",
       technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
@@ -26,6 +20,12 @@ const Projects = () => {
       demo: "https://lesternacino-qrcodegenerator.netlify.app/"
     },
     {
+      title: "TaskMaster: To-Do-List App",
+      description: "A to-do list app is a digital tool designed to help users organize and manage their tasks and reminders.",
+      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
+      demo: "https://lesternacino-todolist.netlify.app/"
+    },
+    {
       title: "vCard Generator",
       description: "vCard generator is a powerful, free, tool that makes it easy to create virtual business cards in the vCard format.",
       technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
@@ -35,6 +35,18 @@ const Projects = () => {
 
   const allProjects = [
     ...primaryProjects,
+    {
+      title: "TaskMaster: To-Do-List App",
+      description: "A to-do list app is a digital tool designed to help users organize and manage their tasks and reminders.",
+      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
+      demo: "https://lesternacino-todolist.netlify.app/"
+    },
+    {
+      title: "vCard Generator",
+      description: "vCard generator is a powerful, free, tool that makes it easy to create virtual business cards in the vCard format.",
+      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
+      demo: "https://lesternacino-vcardgenerator.netlify.app/"
+    }
     // {
     //   title: "Personal Blog",
     //   description: "A statically generated blog built with modern web technologies featuring dark mode and code syntax highlighting.",
