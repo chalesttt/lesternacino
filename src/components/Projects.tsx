@@ -35,24 +35,24 @@ const Projects = () => {
     //   technologies: ["React", "Python", "TensorFlow", "Flask"],
     //   demo: "https://example.com"
     // },
-        {
-      title: "TaskMaster: To-Do-List App",
-      description: "A to-do list app is a digital tool designed to help users organize and manage their tasks and reminders.",
-      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
-      demo: "https://lesternacino-todolist.netlify.app/"
-    },
-        {
-      title: "vCard Generator",
-      description: "vCard generator is a powerful, free, tool that makes it easy to create virtual business cards in the vCard format.",
-      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
-      demo: "https://lesternacino-vcardgenerator.netlify.app/"
-    }
     // {
     //   title: "Financial Dashboard",
     //   description: "Interactive dashboard for tracking investments, expenses, and financial goals with data visualization.",
     //   technologies: ["Vue.js", "D3.js", "Firebase"],
     //   demo: "https://example.com"
     // }
+    {
+      title: "TaskMaster: To-Do-List App",
+      description: "A to-do list app is a digital tool designed to help users organize and manage their tasks and reminders.",
+      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
+      demo: "https://lesternacino-todolist.netlify.app/"
+    },
+    {
+      title: "vCard Generator",
+      description: "vCard generator is a powerful, free, tool that makes it easy to create virtual business cards in the vCard format.",
+      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
+      demo: "https://lesternacino-vcardgenerator.netlify.app/"
+    }
   ];
 
   return (
