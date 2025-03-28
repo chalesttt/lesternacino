@@ -8,6 +8,12 @@ const Projects = () => {
 
   const primaryProjects = [
     {
+      title: "TaskMaster: To-Do-List App",
+      description: "A to-do list app is a digital tool designed to help users organize and manage their tasks and reminders.",
+      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
+      demo: "https://lesternacino-todolist.netlify.app/"
+    },
+    {
       title: "SecurePasss: Password Generator",
       description: "A Password Generator is a tool or application that creates strong, random passwords to enhance security.",
       technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
@@ -18,6 +24,12 @@ const Projects = () => {
       description: "A QR code, short for Quick Response code, is an array of black and white squares or pixels set in a grid that stores data for a machine to read.",
       technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
       demo: "https://lesternacino-qrcodegenerator.netlify.app/"
+    },
+    {
+      title: "vCard Generator",
+      description: "vCard generator is a powerful, free, tool that makes it easy to create virtual business cards in the vCard format.",
+      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
+      demo: "https://lesternacino-vcardgenerator.netlify.app/"
     }
   ];
 
@@ -29,17 +41,17 @@ const Projects = () => {
     //   technologies: ["Next.js", "MDX", "Tailwind CSS"],
     //   demo: "https://example.com"
     // },
-    {
-      title: "TaskMaster: To-Do-List App",
-      description: "A to-do list app is a digital tool designed to help users organize and manage their tasks and reminders.",
-      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
-      demo: "https://lesternacino-todolist.netlify.app/"
+    // {
+      title: "AI Image Generator",
+      description: "An application that uses machine learning to generate unique images based on text prompts.",
+      technologies: ["React", "Python", "TensorFlow", "Flask"],
+      demo: "https://example.com"
     },
     {
-      title: "vCard Generator",
-      description: "vCard generator is a powerful, free, tool that makes it easy to create virtual business cards in the vCard format.",
-      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
-      demo: "https://lesternacino-vcardgenerator.netlify.app/"
+      title: "Financial Dashboard",
+      description: "Interactive dashboard for tracking investments, expenses, and financial goals with data visualization.",
+      technologies: ["Vue.js", "D3.js", "Firebase"],
+      demo: "https://example.com"
     }
   ];
 
@@ -51,10 +63,10 @@ const Projects = () => {
         <Collapsible open={isExpanded}>
           <CollapsibleTrigger
             onClick={() => setIsExpanded(!isExpanded)}
-            className="text-[12px] sm:text-[12px] text-primary hover:underline flex items-center"
-          >
-            {isExpanded ? "Show Less" : "View All"}
-            <ChevronDown size={14} className={`ml-1 transition-transform ${isExpanded ? "rotate-180" : ""}`} />
+             className="text-[12px] sm:text-[12px] text-primary hover:underline flex items-center"
+           >
+             {isExpanded ? "Show Less" : "View All"}
+             <ChevronDown size={14} className={`ml-1 transition-transform ${isExpanded ? "rotate-180" : ""}`} />
           </CollapsibleTrigger>
         </Collapsible>
         </div>
