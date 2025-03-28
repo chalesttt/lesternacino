@@ -102,7 +102,7 @@ const Projects = () => {
 
         <CollapsibleContent>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
-            {allProjects.slice(4).map((project, index) => (
+            {allProjects.slice(primaryProjects.length).map((project, index) => (
               <div key={index} className="glass-card p-5">
                 <h3 className="text-lg font-medium mb-2">{project.title}</h3>
                 <p className="text-muted-foreground mb-3 text-sm">{project.description}</p>
