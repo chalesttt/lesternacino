@@ -19,18 +19,6 @@ const Projects = () => {
       technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
       demo: "https://lesternacino-qrcodegenerator.netlify.app/"
     },
-    {
-      title: "TaskMaster: To-Do-List App",
-      description: "A to-do list app is a digital tool designed to help users organize and manage their tasks and reminders.",
-      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
-      demo: "https://lesternacino-todolist.netlify.app/"
-    },
-    {
-      title: "vCard Generator",
-      description: "vCard generator is a powerful, free, tool that makes it easy to create virtual business cards in the vCard format.",
-      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
-      demo: "https://lesternacino-vcardgenerator.netlify.app/"
-    }
   ];
 
   const allProjects = [
