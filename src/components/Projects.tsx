@@ -41,7 +41,7 @@ const Projects = () => {
     //   technologies: ["Next.js", "MDX", "Tailwind CSS"],
     //   demo: "https://example.com"
     // },
-    // {
+    {
       title: "AI Image Generator",
       description: "An application that uses machine learning to generate unique images based on text prompts.",
       technologies: ["React", "Python", "TensorFlow", "Flask"],
