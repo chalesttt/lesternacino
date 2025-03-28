@@ -18,7 +18,7 @@ const Projects = () => {
       description: "A QR code, short for Quick Response code, is an array of black and white squares or pixels set in a grid that stores data for a machine to read.",
       technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
       demo: "https://lesternacino-qrcodegenerator.netlify.app/"
-    },
+    }
   ];
 
   const allProjects = [
