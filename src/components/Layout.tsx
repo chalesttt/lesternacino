@@ -59,13 +59,6 @@ const Layout = ({ children }: LayoutProps) => {
           <ArrowUp size={20} />
         </button> */}
         
-<iframe
-  width="100%"
-  height="800px"
-  frameborder="0"
-  src="https://denser.ai/u/embed/64d281c9-5134-4cf8-a62e-c6531d613eae">
-</iframe>
-  
       </div>
     </div>
   );
