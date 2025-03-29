@@ -59,12 +59,12 @@ const Layout = ({ children }: LayoutProps) => {
           <ArrowUp size={20} />
         </button> */}
         
-<script type="module">
-  import Chatbot from "https://cdn.jsdelivr.net/npm/@denserai/embed-chat@1/dist/web.min.js";
-  Chatbot.init({
-    chatbotId: "64d281c9-5134-4cf8-a62e-c6531d613eae",
-  });
-</script>  
+<iframe
+  width="100%"
+  height="800px"
+  frameborder="0"
+  src="https://denser.ai/u/embed/64d281c9-5134-4cf8-a62e-c6531d613eae">
+</iframe>
   
       </div>
     </div>
