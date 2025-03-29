@@ -51,13 +51,13 @@ const Layout = ({ children }: LayoutProps) => {
           <p>© 2025 Lester Nacino. All rights reserved.</p>
         </footer>
         
-        <button 
+{/*         <button 
           onClick={scrollToTop}
           className="fixed bottom-6 right-6 p-3 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
           aria-label="Scroll to top"
         >
           <ArrowUp size={20} />
-        </button>
+        </button> */}
       </div>
     </div>
   );
