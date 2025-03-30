@@ -51,13 +51,12 @@ const Contact = () => {
             ></textarea>
           </div>
           
-<Button
-  type="submit"
-  className="w-full bg-black text-white hover:bg-primary/10 transition-colors duration-300"
->
-  <Send size={16} className="mr-2" /> 
-  Send Message
-</Button>
+          <Button
+            type="submit"
+            className="w-full bg-black text-white hover:bg-primary/10 transition-colors duration-300">
+            <Send size={16} className="mr-2" /> 
+            Send Message
+          </Button>
 
         </form>
       </div>
