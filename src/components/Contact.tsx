@@ -53,9 +53,9 @@ const Contact = () => {
           
 <Button
   type="submit"
-  className="w-full bg-black text-white hover:bg-white hover:text-black transition-colors duration-300"
+  className="w-full bg-black text-white hover:bg-primary/10 transition-colors duration-300"
 >
-  <Send size={16} className="mr-2" />
+  <Send size={16} className="mr-2" /> 
   Send Message
 </Button>
 
