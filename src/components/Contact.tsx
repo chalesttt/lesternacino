@@ -51,7 +51,7 @@ const Contact = () => {
             ></textarea>
           </div>
           
-          <Button type="submit" className="w-full hover:bg-primary/10 transition-colors" style={{ backgroundColor: 'black', color: 'white' }}>
+          <Button type="submit" className="w-full" style={{ backgroundColor: 'black', color: 'white', hover:bg-primary/10 transition-colors }}>
             <Send size={16} className="mr-2" />
             Send Message
           </Button>
