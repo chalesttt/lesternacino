@@ -4,19 +4,19 @@ const Experience = () => {
   const experiences = [
     {
       company: "Cristinedel Realty and  Services Company",
-      role: "Intern",
+      role: "Intern - Data - Entry",
       period: "2025 - Present",
     },
     {
-      company: "Cavite State Universitry",
-      role: "BS in information Technology",
+      company: "Cavite State Universitry - Naic Campus",
+      role: "BS in information Technology (BSIT)",
       period: "2021 - 2025",
     },
-    // {
-    //   company: "DigitalCreative Agency",
-    //   role: "Web Developer",
-    //   period: "2017 - 2019",
-    // },
+    {
+      company: "Philippine Christian University - Dasmarinas Campus",
+      role: "Information and Communication Technology (ICT)",
+      period: "2018 - 2020",
+    },
     // {
     //   company: "Freelance",
     //   role: "Web Developer",
