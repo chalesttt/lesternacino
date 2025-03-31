@@ -4,7 +4,7 @@ const Experience = () => {
   const experiences = [
     {
       company: "Cristinedel Realty and  Services Company",
-      role: "Intern - Data - Entry",
+      role: "Intern - Website Data Administrator",
       period: "2025 - Present",
     },
     {
