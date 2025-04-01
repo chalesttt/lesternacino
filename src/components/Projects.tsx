@@ -14,10 +14,10 @@ const Projects = () => {
       demo: "https://lesterncino-passwordgenerator.netlify.app/"
     },
     {
-      title: "QR Code Generator",
-      description: "A QR code, short for Quick Response code, is an array of black and white squares or pixels set in a grid that stores data for a machine to read.",
-      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
-      demo: "https://lesternacino-qrcodegenerator.netlify.app/"
+      title: "Capstone Creator Hub",
+      description: "A Capstone Generator is a tool that generates project title ideas based on industry, project type, and difficulty level, helping students and professionals find suitable capstone projects.",
+      technologies: ["React", "TypeScript", "Vite", "Tailwind CSS"],
+      demo: "https://lesternacino-capstone-creator-hub.vercel.app/"
     },
   ];
 
@@ -41,6 +41,13 @@ const Projects = () => {
     //   technologies: ["Vue.js", "D3.js", "Firebase"],
     //   demo: "https://example.com"
     // }
+    
+    {
+      title: "QR Code Generator",
+      description: "A QR code, short for Quick Response code, is an array of black and white squares or pixels set in a grid that stores data for a machine to read.",
+      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
+      demo: "https://lesternacino-qrcodegenerator.netlify.app/"
+    },
     {
       title: "TaskMaster: To-Do-List App",
       description: "A to-do list app is a digital tool designed to help users organize and manage their tasks and reminders.",
