@@ -7,6 +7,12 @@ const Certifications = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const primaryCertifications = [
+      {
+      title: "Fundamentals of Python Programming",
+      issuer: "Data Analytics Philippines",
+      date: "April 2025",
+      link: "https://shorturl.at/js4Vb"
+    },
     {
       title: "Career Boost with Power BI",
       issuer: "Exodos Experts",
@@ -14,21 +20,21 @@ const Certifications = () => {
       link: "https://shorturl.at/vU0AJ"
     },
     {
+      title: "Intro to Prompt Engineering",
+      issuer: "Simpli Learn",
+      date: "February 2022",
+      link: "https://shorturl.at/m1PsJ"
+    },
+  ];
+
+  const allCertifications = [
+    ...primaryCertifications,
+      {
       title: "Cyber Threat Management",
       issuer: "Cisco Networking Academy",
       date: "February 2025",
       link: "https://shorturl.at/8wvA9"
     },
-    {
-      title: "Intro to Prompt Engineering",
-      issuer: "Simpli Learn",
-      date: "February 2022",
-      link: "https://shorturl.at/m1PsJ"
-    }
-  ];
-
-  const allCertifications = [
-    ...primaryCertifications,
     {
       title: "JavaScript Essentials 1",
       issuer: "Cisco Networking Academy",
