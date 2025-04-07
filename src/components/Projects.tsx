@@ -23,25 +23,6 @@ const Projects = () => {
 
   const allProjects = [
     ...primaryProjects,
-    // {
-    //   title: "Personal Blog",
-    //   description: "A statically generated blog built with modern web technologies featuring dark mode and code syntax highlighting.",
-    //   technologies: ["Next.js", "MDX", "Tailwind CSS"],
-    //   demo: "https://example.com"
-    // },
-    // {
-    //   title: "AI Image Generator",
-    //   description: "An application that uses machine learning to generate unique images based on text prompts.",
-    //   technologies: ["React", "Python", "TensorFlow", "Flask"],
-    //   demo: "https://example.com"
-    // },
-    // {
-    //   title: "Financial Dashboard",
-    //   description: "Interactive dashboard for tracking investments, expenses, and financial goals with data visualization.",
-    //   technologies: ["Vue.js", "D3.js", "Firebase"],
-    //   demo: "https://example.com"
-    // }
-
     {
       title: "SecurePasss: Password Generator",
       description: "A Password Generator is a tool or application that creates strong, random passwords to enhance security.",
