@@ -8,10 +8,10 @@ const Projects = () => {
 
   const primaryProjects = [
     {
-      title: "SecurePasss: Password Generator",
-      description: "A Password Generator is a tool or application that creates strong, random passwords to enhance security.",
-      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
-      demo: "https://lesterncino-passwordgenerator.netlify.app/"
+      title: "Sacred Prayers",
+      description: "Sacred Prayers Translator is a devotional tool that translates traditional Catholic prayers from English to Latin and Tagalog, complete with pronunciation guides to help deepen spiritual connection across languages.",
+      technologies: ["React", "TypeScript", "Vite", "Tailwind CSS"],
+      demo: "https://lesternacino-prayers.vercel.app/"
     },
     {
       title: "Capstone Creator Hub",
@@ -41,7 +41,13 @@ const Projects = () => {
     //   technologies: ["Vue.js", "D3.js", "Firebase"],
     //   demo: "https://example.com"
     // }
-    
+
+    {
+      title: "SecurePasss: Password Generator",
+      description: "A Password Generator is a tool or application that creates strong, random passwords to enhance security.",
+      technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
+      demo: "https://lesterncino-passwordgenerator.netlify.app/"
+    },
     {
       title: "QR Code Generator",
       description: "A QR code, short for Quick Response code, is an array of black and white squares or pixels set in a grid that stores data for a machine to read.",
