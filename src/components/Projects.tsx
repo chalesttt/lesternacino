@@ -11,7 +11,7 @@ const Projects = () => {
       title: "Sacred Prayers",
       description: "Sacred Prayers Translator is a devotional tool that translates traditional Catholic prayers from English to Latin and Tagalog, complete with pronunciation guides to help deepen spiritual connection across languages.",
       technologies: ["React", "TypeScript", "Vite", "Tailwind CSS"],
-      demo: "https://lesternacino-prayers.vercel.app/"
+      demo: "https://lesternacino-sacredprayer.vercel.app/"
     },
     {
       title: "Capstone Creator Hub",
