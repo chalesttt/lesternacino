@@ -25,7 +25,7 @@ const Header = () => {
           <p className="text-muted-foreground text-base md:text-lg mb-3">Web Developer | CyberSecurity</p>
           
           <div className="flex justify-center md:justify-start flex-wrap gap-2">
-            <a download href="public/John_Lester_L._Nacino_Resume.pdf">
+            <a download href="/John_Lester_L._Nacino_Resume.pdf">
               <Button variant="outline" size="sm" className="hover:bg-primary/10 transition-colors">
                 <Download size={16} className="mr-2" />
                 Download Resume`
