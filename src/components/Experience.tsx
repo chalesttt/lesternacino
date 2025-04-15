@@ -46,7 +46,7 @@ const Experience = () => {
     <div className="opacity-0 animate-fadeIn animate-delay-600 section-container" style={{ backgroundColor: '#161616'}}>
       <div className="flex justify-between items-center mb-1">
         <h2 className="section-title text-sm sm:text-base md:text-lg lg:text-xl">Experience</h2>
-        <div className="mb-7">
+        <div className="mb-4"> {/* Reduced margin-bottom here */}
           <Collapsible open={isExpanded}>
             <CollapsibleTrigger
               onClick={() => setIsExpanded(!isExpanded)}
@@ -59,14 +59,14 @@ const Experience = () => {
         </div>
       </div>
       
-      <Collapsible open={isExpanded} className="space-y-4">
+      <div className="space-y-2"> {/* Reduced space-y value from 4 to 2 */}
         {/* Always visible experiences */}
         {primaryExperiences.map((exp, index) => (
           <div 
             key={index} 
-            className="relative flex flex-col md:flex-row justify-between items-start md:items-center py-3 border-b border-border last:border-0 group hover:bg-primary/5 px-3 rounded-md transition-colors"
+            className="relative flex flex-col md:flex-row justify-between items-start md:items-center py-2 border-b border-border last:border-0 group hover:bg-primary/5 px-3 rounded-md transition-colors"
           >
-            <div className="mb-2 md:mb-0">
+            <div className="mb-1 md:mb-0"> {/* Reduced margin-bottom */}
               <h3 className="font-medium">{exp.role}</h3>
               <p className="text-sm text-muted-foreground">{exp.company}</p>
             </div>
@@ -77,23 +77,21 @@ const Experience = () => {
         ))}
 
         {/* Expandable experiences */}
-        <CollapsibleContent className="space-y-2 pt-4">
-          {allExperiences.slice(2).map((exp, index) => (
-            <div 
-              key={index} 
-              className="relative flex flex-col md:flex-row justify-between items-start md:items-center py-3 border-b border-border last:border-0 group hover:bg-primary/5 px-3 rounded-md transition-colors"
-            >
-              <div className="mb-2 md:mb-0">
-                <h3 className="font-medium">{exp.role}</h3>
-                <p className="text-sm text-muted-foreground">{exp.company}</p>
-              </div>
-              <div>
-                <span className="text-sm text-muted-foreground">{exp.period}</span>
-              </div>
+        {isExpanded && allExperiences.slice(2).map((exp, index) => (
+          <div 
+            key={index} 
+            className="relative flex flex-col md:flex-row justify-between items-start md:items-center py-2 border-b border-border last:border-0 group hover:bg-primary/5 px-3 rounded-md transition-colors"
+          >
+            <div className="mb-1 md:mb-0"> {/* Reduced margin-bottom */}
+              <h3 className="font-medium">{exp.role}</h3>
+              <p className="text-sm text-muted-foreground">{exp.company}</p>
             </div>
-          ))}
-        </CollapsibleContent>
-      </Collapsible>
+            <div>
+              <span className="text-sm text-muted-foreground">{exp.period}</span>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
