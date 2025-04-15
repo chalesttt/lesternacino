@@ -64,7 +64,7 @@ const Experience = () => {
         {primaryExperiences.map((exp, index) => (
           <div 
             key={index} 
-            className="relative flex flex-col md:flex-row justify-between items-start md:items-center py-3 border-b border-border last:border-0 group hover:bg-primary/5 px-3 rounded-md transition-colors"
+            className="relative flex flex-col md:flex-row justify-between items-start md:items-center py-2 border-b border-border last:border-0 group hover:bg-primary/5 px-3 rounded-md transition-colors"
           >
             <div className="mb-2 md:mb-0">
               <h3 className="font-medium">{exp.role}</h3>
