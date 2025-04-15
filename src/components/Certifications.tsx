@@ -11,7 +11,7 @@ const Certifications = () => {
       title: "Fundamentals of Python Programming",
       issuer: "Data Analytics Philippines",
       date: "April 2025",
-      link: "https://shorturl.at/js4Vb"
+      link: "https://shorturl.at/aSxjC"
     },
     {
       title: "Career Boost with Power BI",
