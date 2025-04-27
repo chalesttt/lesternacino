@@ -1,10 +1,10 @@
 import React from 'react';
+
 const About = () => {
   return (
-    <div className="opacity-0 animate-fadeIn animate-delay-600 section-container" style={{ backgroundColor: '
-#161616'}}>
+    <div className="opacity-0 animate-fadeIn animate-delay-600 section-container" style={{ backgroundColor: '#161616'}}>
       <h2 className="section-title text-sm sm:text-base md:text-lg lg:text-xl">About</h2>
-
+      
       <div className="space-y-4 text-muted-foreground text-sm sm:text-base">
         <p>
           Technology has always fascinated me, especially in software development, system analysis,
@@ -12,7 +12,7 @@ const About = () => {
           useful for people. Learning never stops for me, I’m always exploring new skills, certifications, and 
           projects to stay ahead.
         </p>
-
+        
         <p>
         Beyond work, I enjoy collaborating, sharing knowledge, and contributing to open-source projects. 
         I’m passionate about self-improvement and constantly pushing myself to grow. At the end of the day, 
@@ -22,4 +22,5 @@ const About = () => {
     </div>
   );
 };
+
 export default About;
