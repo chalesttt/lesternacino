@@ -16,6 +16,7 @@ const Projects = () => {
     {
       title: "Capstone Creator Hub",
       description: "A Capstone Generator is a tool that generates project title ideas based on industry, project type, and difficulty level, helping students and professionals find suitable capstone projects.",
+      note: "Not finished/accurate yet",
       technologies: ["React", "TypeScript", "Vite", "Tailwind CSS"],
       demo: "https://lesternacino-capstone-creator-hub.vercel.app/"
     }
@@ -54,31 +55,36 @@ const Projects = () => {
       <div className="flex justify-between items-center mb-1">
         <h2 className="section-title text-sm sm:text-base md:text-lg lg:text-xl">Recent Projects</h2>
         <div className="mb-7">
-        <Collapsible open={isExpanded}>
-          <CollapsibleTrigger
-            onClick={() => setIsExpanded(!isExpanded)}
-             className="text-[12px] sm:text-[12px] text-primary hover:underline flex items-center"
-           >
-             {isExpanded ? "Show Less" : "View All"}
-             <ChevronDown size={14} className={`ml-1 transition-transform ${isExpanded ? "rotate-180" : ""}`} />
-          </CollapsibleTrigger>
-        </Collapsible>
+          <Collapsible open={isExpanded}>
+            <CollapsibleTrigger
+              onClick={() => setIsExpanded(!isExpanded)}
+              className="text-[12px] sm:text-[12px] text-primary hover:underline flex items-center"
+            >
+              {isExpanded ? "Show Less" : "View All"}
+              <ChevronDown size={14} className={`ml-1 transition-transform ${isExpanded ? "rotate-180" : ""}`} />
+            </CollapsibleTrigger>
+          </Collapsible>
         </div>
       </div>
-      
+
       <Collapsible open={isExpanded} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {primaryProjects.map((project, index) => (
             <div key={index} className="glass-card p-5">
               <h3 className="text-lg font-medium mb-2">{project.title}</h3>
-              <p className="text-muted-foreground mb-3 text-sm">{project.description}</p>
-              
+              <p className="text-muted-foreground mb-3 text-sm">
+                {project.description}
+                {project.note && (
+                  <span className="italic text-gray-400"> — {project.note}</span>
+                )}
+              </p>
+
               <div className="flex flex-wrap mb-4">
                 {project.technologies.map((tech, i) => (
                   <Tag key={i} className="text-xs">{tech}</Tag>
                 ))}
               </div>
-              
+
               <div className="flex gap-3">
                 <a 
                   href={project.demo} 
@@ -100,13 +106,13 @@ const Projects = () => {
               <div key={index} className="glass-card p-5">
                 <h3 className="text-lg font-medium mb-2">{project.title}</h3>
                 <p className="text-muted-foreground mb-3 text-sm">{project.description}</p>
-                
+
                 <div className="flex flex-wrap mb-4">
                   {project.technologies.map((tech, i) => (
                     <Tag key={i} className="text-xs">{tech}</Tag>
                   ))}
                 </div>
-                
+
                 <div className="flex gap-3">
                   <a 
                     href={project.demo} 
