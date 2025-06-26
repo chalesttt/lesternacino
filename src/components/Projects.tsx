@@ -15,8 +15,7 @@ const Projects = () => {
     },
     {
       title: "Capstone Creator Hub",
-      note: "*Not finished/accurate yet.*",
-      description: "A Capstone Generator is a tool that generates project title ideas based on industry, project type, and difficulty level, helping students and professionals find suitable capstone projects.",
+      description: "A Capstone Generator is a tool that generates project title ideas based on industry, project type, and difficulty level, helping students and professionals find suitable capstone projects. *Not finished/accurate yet.*",
       technologies: ["React", "TypeScript", "Vite", "Tailwind CSS"],
       demo: "https://lesternacino-capstone-creator-hub.vercel.app/"
     }
